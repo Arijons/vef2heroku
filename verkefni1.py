@@ -45,7 +45,7 @@ def us3():
 def custom404(error):
     return "sláðu inn rétta rout"
 
-run(host="localhost", port=8080, debug=True)
+bottle.run(host="0.0.0.0", port=argv[1])
 
 
 
