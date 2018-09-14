@@ -1,4 +1,8 @@
-# -*- coding: utf-8 -*-
+from sys import argv
+
+import bottle
+from bottle import*
+bottle.debug(True)
 
 from bottle import Bottle, template
 
